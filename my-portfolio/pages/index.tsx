@@ -6,8 +6,8 @@ import React, { useEffect, useState } from 'react'
 export const HomePage = () => { 
 
   const [nav,setNav]=useState(false);
-  const openNav = () => setNav(false);
-  const closeNav = () => setNav(false);
+  const openNav = () => setNav(true);
+  const closeNav = () =>setNav(false);
 
   return ( <div className='overflow-x-hidden'>
     <div> 
